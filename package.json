@@ -2,10 +2,13 @@
   "name": "async-resquest-reponse-mgr",
   "version": "1.0.0",
   "description": "A system to manage asynchronous responses from long running services",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mark Cooper",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.11.0"
+  }
 }
