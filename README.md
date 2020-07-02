@@ -1,8 +1,8 @@
-![](/overview.jpg)
+![](/overview.png)
 
 
-Asynchronous Service Communication
-Problem Statement
+# Asynchronous Service Communication
+## Problem Statement
 Most modern web service architectures rely on asynchronous RESTful services. In certain instances, especially with ML architectures like Citrine, longer running complex tasks will make it difficult to fulfill promises in a timely fashion (i.e. < 500ms) therefore a more robust mechanism for managing asynchronous communication is required.
 There are two primary types of asynchronous communication scenarios that this page attempts to address:
 1.	Request-Response : An example of this would be a user request requiring complex configuration. The validation of the inputted configuration may take longer to analyze (e.g. may need to get responses from more than one source) than a reasonable time-out period would allow.
