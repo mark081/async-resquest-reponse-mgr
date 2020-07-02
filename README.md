@@ -1,3 +1,6 @@
+![](/overview.jpg)
+
+
 Asynchronous Service Communication
 Problem Statement
 Most modern web service architectures rely on asynchronous RESTful services. In certain instances, especially with ML architectures like Citrine, longer running complex tasks will make it difficult to fulfill promises in a timely fashion (i.e. < 500ms) therefore a more robust mechanism for managing asynchronous communication is required.
